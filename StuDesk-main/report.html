@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Report</title>
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="all.min.css">
+   <link rel="stylesheet" href="adminlte.min.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="dataTables.bootstrap4.min.css">
+   <link rel = "icon" href = "Screenshot (42).png">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+   <style type="text/css">
+      table tr td {
+         padding: 1.5rem !important;
+      }
+   </style>
+</head>
+
+<body class="hold-transition sidebar-mini layout-fixed">
+   <div class="wrapper">
+      <nav class="main-header navbar navbar-expand navbar-light" style="background-color: rgb(27,100,107)">
+         <!-- Left navbar links -->
+         <ul class="navbar-nav">
+            <li class="nav-item">
+               <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+            </li>
+         </ul>
+         <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+               <a class="nav-link" href="#" role="button">
+                  <img src="avatar.png" class="img-circle" alt="User Image" width="40" style="margin-top: -8px;">
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+                  <i class="fas fa-expand-arrows-alt"></i>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-widget="fullscreen" href="index.html">
+                  <i class="fas fa-sign-out-alt"></i>
+               </a>
+            </li>
+         </ul>
+      </nav>
+      <aside class="main-sidebar sidebar-dark-primary">
+        <!-- Brand Logo -->
+        <a href="index.html" class="brand-link">
+     <img src="Screenshot (42).png" alt="DSMS Logo" width="200">
+     </a>
+     <div class="sidebar">
+        <nav class="mt-2">
+           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+              data-accordion="false">
+              <li class="nav-item">
+                 <a href="index.html" class="nav-link">
+                    <img src="dashboard.png" width="30">
+                    <p>
+                       Dashboard
+                    </p>
+                 </a>
+              </li>
+  
+   
+                          <li class="nav-item">
+                 <a href="contest2.html" class="nav-link">
+                    <img src="subject.png" width="30">
+                    <p>
+                       Contests
+                    </p>
+                 </a>
+              </li>
+              
+              <li class="nav-item">
+                 <a href="submissions2.html" class="nav-link">
+                    <img src="score.png" width="30">
+                    <p>
+                       Submissions
+                    </p>
+                 </a>
+              </li>
+                  <li class="nav-item">
+                     <a href="#" class="nav-link">
+                        <img src="report.png" width="30">
+                        <p>
+                           Reports
+                        </p>
+                        <i class="right fas fa-angle-left"></i>
+                     </a>
+                     <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                           <a href="score.html" class="nav-link">
+                              <i class="nav-icon far fa-circle"></i>
+                              <p>Score</p>
+                           </a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="report.html" class="nav-link">
+                              <i class="nav-icon far fa-circle"></i>
+                              <p>Compare Score</p>
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+        </ul>
+    </nav>
+ </div>
+      </aside>
+      <div class="content-wrapper">
+         <div class="content-header">
+            <div class="container-fluid">
+               <div class="row mb-2">
+                  <div class="col-sm-6">
+                     <h1 class="m-0"><img src="report.png" width="40"> Reports</h1>
+                  </div>
+                  <div class="col-sm-6">
+                     <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Reports</li>
+                     </ol>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <section class="content">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                     <div class="card">
+                        <div class="card-body">
+                           <div class="chart-title">
+                              <h4>Progress</h4>
+                           </div>
+                           <table class="table table-bordered mytable">
+                              <thead>
+                                 <th></th>
+                                 <th>01/22</th>
+                                 <th>02/22</th>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>C++</td>
+                                    <td>60%</td>
+                                    <td>12%</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Python</td>
+                                    <td>45%</td>
+                                    <td>20%</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Javascript</td>
+                                    <td>100%</td>
+                                    <td>0%</td>
+                                 </tr>
+                                 <tr>
+                                    <td>DSA</td>
+                                    <td>2%</td>
+                                    <td>48%</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Misc.</td>
+                                    <td>3%</td>
+                                    <td>6%</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-md-8 col-lg-8 col-xl-8">
+                     <div class="card">
+                        <div class="card-body">
+                           <div class="chart-title">
+                              <h4>Progress Report</h4>
+                              <h6>(past 2 months)</h6>
+                           </div>
+                           <canvas id="bargraph1"></canvas>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+      </div>
+      </section>
+
+      <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+   </div>
+   </div>
+   <!-- jQuery -->
+   <script src="jquery.min.js"></script>
+   <script src="adminlte.js"></script>
+   <script src="chart.js"></script>
+
+   <script>
+      document.addEventListener("DOMContentLoaded", function () {
+         // Bar Chart
+         var barChartData = {
+            labels: ["C++", "Python", "Javascript", "DSA", "Misc"],
+            datasets: [{
+               label: '01/22',
+               backgroundColor: 'rgb(79,129,189)',
+               borderColor: 'rgba(0, 158, 251, 1)',
+               borderWidth: 1,
+               data: [60,45,100,2,3]
+            },
+            {
+               label: '02/22',
+               backgroundColor: 'rgb(192,80,77)',
+               borderColor: 'rgba(0, 158, 251, 1)',
+               borderWidth: 1,
+               data: [12,20,0,48,6]
+            }]
+         };
+
+         var ctx = document.getElementById('bargraph1').getContext('2d');
+         window.myBar = new Chart(ctx, {
+            type: 'bar',
+            data: barChartData,
+            options: {
+               responsive: true,
+               legend: {
+                  display: true,
+               }
+            }
+         });
+
+      });
+   </script>
+
+
+<script>
+   var myChart = new Chart("myChart", {type: "line",data: {},options: {}});
+var xValues = [10,20,30];
+var yValues = [48,25,100,46,];
+
+new Chart("myChart", {
+  type: "line",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: "rgba(0,0,0,1.0)",
+      borderColor: "rgba(0,0,0,0)",
+      data: yValues
+    }]
+  },
+  options:{}
+});
+
+</script>
+</body>
+
+</html>
