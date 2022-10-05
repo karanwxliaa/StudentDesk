@@ -1,6 +1,4 @@
 # StudentDesk
-Submission for IEEE Hackathon 3rd sep 2022
-
 
 A tool to track student performance on various online judges 
 (coding platforms) and learning platforms  
